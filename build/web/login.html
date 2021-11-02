@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/simpleLayout.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="authen-layout">
+            <div class="sidenav">
+                <div class="login-main-text">
+                    <h1>Simple Blog<br> <span style="font-size: 25px">Login Page</span></h1>
+                    <p>Login or register from here to access.</p>
+                </div>
+            </div>
+            <div class="main">
+                <div class="login-form">
+                    <a href="searchArticleAction">Go to Article Page</a><br/>
+                    <form action="loginAction" method="POST">
+                        <div class="form-group">
+                            <label>Email</label><br>
+                            <input type="text" name="txtEmail" value="" class="form-control" placeholder="Email"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label><br>
+                            <input type="password" name="txtPassword" value="" class="form-control" placeholder="Password" />
+                        </div>
+                        <div style="margin-top: 5px">
+                            <input type="submit" value="Login" name="btnAction" />
+                            <input type="reset" value="Reset" />
+                        </div> 
+                    </form>
+                    <a href="signUpPageStatic">Sign Up</a><br/>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
